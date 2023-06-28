@@ -10,8 +10,8 @@ function verifyingData(e) {
     e.preventDefault();
 
     if(!isNaN(input1.value && input2.value)){
-        let totaFromInput = Number(input1.value) + Number(input2.value);
-        resultadoElement.innerHTML = "El resultado es " + totaFromInput;
+        let totalFromInput = Number(input1.value) + Number(input2.value);
+        resultadoElement.innerHTML = "El resultado es " + totalFromInput;
 
     }else{            
         resultadoElement.innerHTML = 'Lo sentimos, solo aceptamos numeros, verifique los datos que ingreso y asegurece que no halla ninguna letra. ';
